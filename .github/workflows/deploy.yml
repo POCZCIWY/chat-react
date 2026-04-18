@@ -21,9 +21,9 @@ jobs:
       - name: Instalacja środowiska Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 18
       - name: Instalacja bibliotek
-        run: npm install --legacy-peer-deps --force
+        run: npm install 
       - name: Zbudowanie paczki React
         run: npm run build
       - name: Przekazanie paczki do GitHuba
