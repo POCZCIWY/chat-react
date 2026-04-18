@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // WAŻNE: Zmień 'shoutbox-react' na DOKŁADNĄ nazwę Twojego repozytorium na GitHub!
   // Musi się zaczynać i kończyć ukośnikiem /
-  base: '/shoutbox-react/'
+  base: '/chat-react/'
 })
